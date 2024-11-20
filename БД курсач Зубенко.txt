@@ -130,3 +130,4 @@ INNER JOIN
 INNER JOIN 
     Комплектация k on a.ID = k.ID
 
+{EQeqweqeqeqeq
