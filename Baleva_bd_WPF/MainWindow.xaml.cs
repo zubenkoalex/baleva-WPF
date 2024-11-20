@@ -71,7 +71,6 @@ namespace Baleva_bd_WPF
             catch (Exception ex)
             {
                 MessageBox.Show("Ошибка: " + ex.Message);
-                MessageBox.Show("COCO JAMBO: " + ex.Message);
             }
         }
 

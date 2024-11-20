@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Baleva_bd_WPF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be91d91f9ee610b1d7b9e91717a97dd54947d34a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Baleva_bd_WPF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Baleva_bd_WPF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

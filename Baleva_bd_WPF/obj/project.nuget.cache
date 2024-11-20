@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U7Pk4WK5yRuHjl5olLgplGi/P1LwHhK5doKsFrKqA6q9JvLC+uevBAEKfv73NdXguvU40aAqXUnbEBwL5kXB7A==",
+  "dgSpecHash": "hW5qMciu9dA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Александр\\Desktop\\Учеба\\Балева WPF\\Baleva_bd_WPF\\Baleva_bd_WPF.csproj",
+  "projectFilePath": "C:\\Users\\Александр\\Desktop\\Учеба\\baleva WPF\\Baleva_bd_WPF\\Baleva_bd_WPF.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Александр\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Александр\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
