@@ -5,13 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Baleva_bd_WPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="800" Width="1700">
-    <Grid>
+        Title="MainWindow" Height="800" Width="1364">
+    <Grid RenderTransformOrigin="0.408,0.358" Margin="0,0,0,-6">
         <Grid.RowDefinitions>
             <RowDefinition Height="35*"/>
             <RowDefinition Height="40*"/>
         </Grid.RowDefinitions>
-        <Label Content="Вывод таблицы с автоматическим заполнением" Grid.Row="0" Grid.RowSpan="2"/>
         <DataGrid Grid.Row="5" Margin="5" VerticalAlignment="Top" x:Name="autogrid" AutoGenerateColumns="False">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Автомобиль_ID" Binding="{Binding Автомобиль_ID}"/>
@@ -39,6 +38,9 @@
                 </DataGridTemplateColumn>
             </DataGrid.Columns>
         </DataGrid>
-
+    <Label Grid.Row="0" Content="Поиск по году выпуска" FontSize="19" Margin="920,27,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+    <TextBox x:Name="SearchTb" TextChanged="SearchTb_TextChanged" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="920,67,0,0" TextWrapping="Wrap" Text="" Width="208" Height="41"/>
+    <Label Content="Фильтровать по марке:" FontSize="19" HorizontalAlignment="Left"  Margin="920,134,0,186" Width="230"/>
+    <ComboBox x:Name="MarkaCB"  SelectionChanged="MarkaCB_SelectionChanged" Margin="920,188,288,115"/>
     </Grid>
 </Window>

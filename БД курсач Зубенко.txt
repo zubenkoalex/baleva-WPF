@@ -94,11 +94,11 @@ values
 
 insert into Автомобиль
 values
-(1,1,184000,2030000,2009,1,'C:\Users\Александр\Desktop\Учеба\Балева WPF\Пикчи\3series_chornijpg.jpeg'),
-(2,1,84000,2500000,2012,2,'C:\Users\Александр\Desktop\Учеба\Балева WPF\Пикчи\3series_serai.jpg'),
-(3,2,15000,4000000,2019,3,'C:\Users\Александр\Desktop\Учеба\Балева WPF\Пикчи\m5.jpeg'),
-(4,3,44000,3420000,2016,4,'C:\Users\Александр\Desktop\Учеба\Балева WPF\Пикчи\a5.jpeg'),
-(5,4,600000,1500000,1996,5,'C:\Users\Александр\Desktop\Учеба\Балева WPF\Пикчи\supra.jpeg');
+(1,1,184000,2030000,2009,1,'C:\Users\Александр\Desktop\Учеба\baleva WPF\Пикчи\3series_chornijpg.jpeg'),
+(2,1,84000,2500000,2012,2,'C:\Users\Александр\Desktop\Учеба\baleva WPF\Пикчи\3series_serai.jpg'),
+(3,2,15000,4000000,2019,3,'C:\Users\Александр\Desktop\Учеба\baleva WPF\Пикчи\m5.jpeg'),
+(4,3,44000,3420000,2016,4,'C:\Users\Александр\Desktop\Учеба\baleva WPF\Пикчи\a5.jpeg'),
+(5,4,600000,1500000,1996,5,'C:\Users\Александр\Desktop\Учеба\baleva WPF\Пикчи\supra.jpeg');
 
 
 SELECT 
@@ -129,5 +129,3 @@ INNER JOIN
     Поколение p ON mo.Поколение_ID = p.ID
 INNER JOIN 
     Комплектация k on a.ID = k.ID
-
-{EQeqweqeqeqeq
